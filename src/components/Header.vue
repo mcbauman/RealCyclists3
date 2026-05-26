@@ -6,7 +6,7 @@ const toggleTheme = inject("toggleTheme");
 </script>
 
 <template>
-  <header>
+  <header class="webHeader">
     <RouterLink class="headerElement" to="/">Home</RouterLink>
     <RouterLink class="headerElement" to="/testberichte">Testberichte</RouterLink>
     <RouterLink class="headerElement" to="/produkte">Produkte</RouterLink>
@@ -14,6 +14,19 @@ const toggleTheme = inject("toggleTheme");
     <RouterLink class="headerElement" to="/rundumsRad">Rund ums Rad</RouterLink>
     <RouterLink class="headerElement" to="/community">community</RouterLink>
     <button class="headerElement" @click="toggleTheme">
+      {{ theme === "dark" ? "🌙" : "☀️" }}
+    </button>
+  </header>
+  <header class="phoneHeader">
+    <select>
+      <option value="all">Alle Artikel</option>
+      <option value="testberichte">Testberichte</option>
+      <option value="produkte">Produkte</option>
+      <option value="reiseberichte">Reiseberichte</option>
+      <option value="rundumsRad">Rund ums Rad</option>
+      <option value="community">Community</option>
+    </select>
+        <button class="headerElement" @click="toggleTheme">
       {{ theme === "dark" ? "🌙" : "☀️" }}
     </button>
   </header>
@@ -44,5 +57,37 @@ header {
 }
 .headerElement:hover {
   background-color: var(--bg);
+}
+select{
+  background-color: var(--black07);
+  color: var(--white);
+  width: 100%;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px 0;
+}
+@media (max-width: 920px) {
+	.webHeader{
+    display: none;
+  }
+}
+@media (min-width:920px) {
+  .phoneHeader{
+    display: none;
+  }
 }
 </style>

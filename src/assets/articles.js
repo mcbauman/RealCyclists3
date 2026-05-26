@@ -1,4 +1,6 @@
-export const content = [{
+export const articles = [{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -6,6 +8,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -13,6 +17,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -21,6 +27,8 @@ export const content = [{
   }]
 },
 {
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -28,6 +36,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -35,6 +45,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -43,6 +55,8 @@ export const content = [{
   }]
 },
 {
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -50,6 +64,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -57,6 +73,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -65,6 +83,8 @@ export const content = [{
   }]
 },
 {
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -72,6 +92,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -79,6 +101,8 @@ export const content = [{
     text:"text",
   }]
 },{
+  categorie:"testberichte",
+  image:false,
   title:"Title",
   text:"text",
   content:[{
