@@ -1,23 +1,21 @@
 <script setup>
-import { useContentStore } from '@/stores/content';
-const contentstore = useContentStore()
 const props = defineProps(["content"]);
+const imageUrl = props.content.picture
+  ? new URL(`../assets/images/${props.content.picture}`, import.meta.url).href
+  : "";
 </script>
 
 <template>
-    <article @click="contentstore.currentArticle = content">
-      <h1>normal Component</h1>
-      <img
-        class="homePictures"
-        v-if="content.picture"
-        :src="content.picture"
-        :alt="content.picture"
-      />
-      <div>
-        <h3>{{ content.title }}</h3>
-        <p>{{ content.text }}</p>
-      </div>
-    </article>
+  <img
+    class="homePictures"
+    v-if="imageUrl"
+    :src="imageUrl"
+    :alt="content.title"
+  />
+  <div>
+    <h3>{{ content.title }}</h3>
+    <p>{{ content.text }}</p>
+  </div>
 </template>
 
 <style scoped>

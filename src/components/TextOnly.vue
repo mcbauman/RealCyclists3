@@ -1,17 +1,12 @@
 <script setup>
-import { useContentStore } from '@/stores/content';
-const contentstore = useContentStore()
 const props = defineProps(["content"]);
 </script>
 
 <template>
-    <article @click="contentstore.currentArticle = content">
-    <h3>textOnly</h3>
-      <div>
-        <h3>{{ content.title }}</h3>
-        <p>{{ content.text }}</p>
-      </div>
-    </article>
+  <div>
+    <h3>{{ content.title }}</h3>
+    <p>{{ content.text }}</p>
+  </div>
 </template>
 
 <style scoped>

@@ -2,7 +2,7 @@ export const articles = [{
   categorie:"Produkte",
   // normal, bigPicture, tripleComponent, textonly
   viewStyle:"triple",
-  image:false,
+  picture:"fliteFull.jpg",
   videoLink:false,
   orientation:"top",
   // bigPicture: top, topright, right, bottomright, bottom, bottomleft, left, topleft
@@ -29,24 +29,40 @@ export const articles = [{
   ]
 },{
   categorie:"testberichte",
-  viewStyle:"bigPicture",
-  image:false,
-  videoLink:false,
-  orientation:"top",
-  image:false,
-  title:"Title",
-  text:"text",
-  content:[{
-    title:"Title",
-    text:"text",
-  }]
+  viewStyle:"normal",
+  picture:"fliteFull.jpg",
+  videoLink:"https://www.youtube.com/embed/leDp6Kw-HDs",
+  orientation:"bottom",
+  title:"Toxy Flite, das Stadt-Liegerad",
+  text:"Liegerad und Stadt - das scheinen häufig einfach Gegensätze zu sein. Das Toxy Flite soll diese Gegensätze aufheben. Mit der deutlich erhöhten Sitzposition, faltbar, mit Oberlenker und mit Elektroantrieb werden die typischen Nachteile eines Liegerads in der Stadt größtenteil aufgehoben. Ist das Ergebnis das perfekte Stadt-Liegerad?",
+  content:[
+    {
+      title:"Die Höhe, Für Übersicht und Sichtbarkeit",
+      text:"Bei den meisten Liegerädern ist man tief, so tief wie ein Kleinkind auf dem Fahrrad. Besonders in der Stadt ist das regelmäßig nachteilig. Eventuell wird man von parkenden Autos verdeckt, eventuell von Büschen. Das Argument, Kinder sind ähnlich niedrig, hilft dabei in der Praxis kaum weiter - man wird einfach häufiger übersehen. Nun aus der anderen Perspektive ist der Überblick häufig stark eingeschränkt. Auf dem Toxy Flite ist das Propblem nicht gänzlich behoben, aber Für ein Liegerad sehr gering ausgeprägt."
+    },
+    {
+      title: "wendiger dank Oberlenker",
+      text: "Glaubt man dem Forum, ist der Oberlenker garant für eine deutlich bessere Aerodynamik. Nun derweil ich bezweifel, dass der Effekt spührbar ist, ist der Oberlenker ohne zweifel ein Gewinn für die Wendigkeit des Toxy. Auch die engsten Kurven lassen sich damit fahren - oder rollen. "
+    },
+    {
+      title:"Klapprad - für die Bahnmitnahme",
+      text: "Jederzeit kostenfreie Mitnahme im ÖPNV - kein Problem mit einem Faltrad. Und wenn die Bahnen so gut sind, wie in Hamburg, wird diese Option zum echten Gewinn."
+    },
+    {
+      title:"E-Support als Anfahrhilfe",
+      text:"Sind wir ehrlich, der Ampelsrpint ist nicht grad die Paradedisziplin des Liegerades - Beschleunigen ist im Vergleich zu einem Rennrad doch eher mühsam. Und Ampelsrints gibts in der Stadt jede Menge. Da kommt es mehr als gelegen, dass dieses Flite mit Elektromotor brav bis zum Erreichen der 25 km/h Grenze unterstützt. Danach gehts dann wie gewohnt aus eigener Kraft weiter."
+    },
+    {
+      title:"das perfekte Stadtrad?",
+      text:"Nun für mich reicht es nicht um das perfekte Stadtrad zu sein. Mit eingem Gravelbike bleibe ich flexibler, es ist wesentlich leichter und günstiger. Das Gesamtpaket wirkt dennoch sehr gelungen. Damit ist das Flite für mich sehr wohl das perfekte Stadt-Liege-Rar."
+    }
+  ]
 },{
   categorie:"testberichte",
   viewStyle:"textOnly",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -57,10 +73,9 @@ export const articles = [{
 {
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -70,10 +85,9 @@ export const articles = [{
 },{
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -83,10 +97,9 @@ export const articles = [{
 },{
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -97,10 +110,9 @@ export const articles = [{
 {
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -110,10 +122,9 @@ export const articles = [{
 },{
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -123,10 +134,9 @@ export const articles = [{
 },{
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -137,10 +147,9 @@ export const articles = [{
 {
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -150,10 +159,9 @@ export const articles = [{
 },{
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{
@@ -163,10 +171,9 @@ export const articles = [{
 },{
   categorie:"testberichte",
     viewStyle:"normal",
-  image:false,
+  picture:false,
   videoLink:false,
   orientation:"top",
-  image:false,
   title:"Title",
   text:"text",
   content:[{

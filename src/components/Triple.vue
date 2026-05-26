@@ -3,29 +3,26 @@ const pops = defineProps(["content"])
 </script>
 
 <template>
-  <article>
-    <h3 v-if="content.title && content.title.length > 0">{{ content.title }}</h3>
-    <p v-if="content.text && content.text.length > 0">{{ content.text }}</p>
-    
-    <div class="trippleComponent">
-      <div 
-        v-for="(element, index) in content.content" 
-        :key="index"
-        class="trippleComponentContent"
-        :style="{ backgroundImage: 'url(' + element.picture + ')' }"
-        @click="handleClick(element)"
-      >
+  <h3 v-if="content.title && content.title.length > 0">{{ content.title }}</h3>
+  <p v-if="content.text && content.text.length > 0">{{ content.text }}</p>
+  
+  <div class="trippleComponent">
+    <div 
+      v-for="(element, index) in content.content" 
+      :key="index"
+      class="trippleComponentContent"
+      :style="{ backgroundImage: 'url(' + element.picture + ')' }"
+    >
 
-        <div class="content" >
-          <div :class="'textBoxWP '+element.colorSchema">
-            <h4>{{ element.header }}</h4>
-            <h3>{{ element.title }}</h3>
-            <p>{{ element.text }}</p>
-          </div>
+      <div class="content" >
+        <div :class="'textBoxWP '+element.colorSchema">
+          <h4>{{ element.header }}</h4>
+          <h3>{{ element.title }}</h3>
+          <p>{{ element.text }}</p>
         </div>
       </div>
     </div>
-  </article>
+  </div>
 </template>
 
 <style scoped>

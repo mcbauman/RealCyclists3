@@ -1,17 +1,14 @@
 <script setup>
-import { storeToRefs } from "pinia";
-import { useConfigStore } from "@/stores/configStore";
+import { useContentStore } from '@/stores/content';
 import CloseIcon from "@/assets/icons/CloseIcon.vue";
-
-const configStore = storeToRefs(useConfigStore());
-const { openArticle } = configStore;
+const content = useContentStore()
 </script>
 <template>
   <div class="modalBackground">
     <section class="articleModal">
       <h3 class="articleModalHeader">
-        {{ openArticle.header }}
-        <button @click="openArticle = false">
+        {{ content.currentArticle.title }}
+        <button @click="content.currentArticle = false">
           <CloseIcon />
         </button>
       </h3>
@@ -19,17 +16,27 @@ const { openArticle } = configStore;
         <article class="acticleSection">
           <img
             class="homePictures"
-            v-if="openArticle.picture"
-            :src="openArticle.picture"
-            :alt="openArticle.picture"
+            v-if="content.currentArticle.picture"
+            :src="content.currentArticle.picture"
+            :alt="content.currentArticle.picture"
           />
+          <iframe
+            width="100%"
+            height="810"
+            :src="content.currentArticle.videoLink"
+            title="LTKurz"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
           <div>
-            <h3>{{ openArticle.title }}</h3>
-            <p>{{ openArticle.text }}</p>
+            <h3>{{ content.currentArticle.title }}</h3>
+            <p>{{ content.currentArticle.text }}</p>
           </div>
         </article>
          <div class="moreContent">
-          <div v-for="section in openArticle.section">
+          <div v-for="section in content.currentArticle.content">
             <img
               class="homePictures" v-if="section.picture" 
               :src="section.picture"
@@ -43,7 +50,7 @@ const { openArticle } = configStore;
         
         </div>
       </div>
-      <button @click="openArticle = false"><CloseIcon /> Schließen</button>
+      <button @click="content.currentArticle = false"><CloseIcon /> Schließen</button>
       <div class="endSpace"></div>
     </section>
   </div>

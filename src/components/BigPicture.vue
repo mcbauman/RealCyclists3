@@ -1,21 +1,16 @@
 <script setup>
 const props = defineProps(["content"])
-import { useContentStore } from '@/stores/content';
-const contentstore = useContentStore()
 </script>
 
 <template>
-  <article @click="contentstore.currentArticle = content">
-  <h3>BigPicture</h3>
-    <img class="modelPicture" :src="content.picture" alt="" />
-    <section :class="content.orientation + ' ' + content.colorSchema">
-      <h4>{{ content.header }}</h4>
-      <h3>{{ content.title }}</h3>
-      <p>
-        {{ content.text }}
-      </p>
-    </section>
-  </article>
+  <img class="modelPicture" :src="content.picture" alt="" />
+  <section :class="content.orientation + ' ' + content.colorSchema">
+    <h4>{{ content.header }}</h4>
+    <h3>{{ content.title }}</h3>
+    <p>
+      {{ content.text }}
+    </p>
+  </section>
 </template>
 
 <style scoped>
