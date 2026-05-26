@@ -52,6 +52,7 @@ body {
   background-image: url(../assets/61809AEE-179C-47BA-B32A-10B8147C7037_1_105_c.jpeg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: var(--color-text);
   /* background: var(--bg); */
   transition:

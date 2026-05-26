@@ -8,7 +8,7 @@ const imageUrl = props.content.picture
 <template>
   <img
     class="homePictures"
-    v-if="imageUrl"
+    v-if="content.picture"
     :src="imageUrl"
     :alt="content.title"
   />
