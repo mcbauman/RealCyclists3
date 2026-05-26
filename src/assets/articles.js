@@ -1,5 +1,5 @@
 export const articles = [{
-  categorie:"testberichte",
+  categorie:"home",
   image:false,
   title:"Title",
   text:"text",

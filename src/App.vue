@@ -1,6 +1,9 @@
 <script setup>
 import { ref, provide, watchEffect } from 'vue'
 import Header from './components/Header.vue';
+import { useContentStore } from '@/stores/content';
+import Article from '@/components/Article.vue';
+const content = useContentStore()
 
 const theme = ref('light')
 const toggleTheme = () => {
@@ -17,5 +20,7 @@ watchEffect(() => {
 
 <template>
   <Header/>
-  <RouterView />
+  <main>
+    <Article v-for="article in content.contentDisplayd" :article="article"/>
+  </main>
 </template>

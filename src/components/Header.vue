@@ -1,25 +1,26 @@
 <script setup>
 import { inject } from "vue";
-
+import { useContentStore } from '@/stores/content';
+const content = useContentStore()
 const theme = inject("theme");
 const toggleTheme = inject("toggleTheme");
 </script>
 
 <template>
   <header class="webHeader">
-    <RouterLink class="headerElement" to="/">Home</RouterLink>
-    <RouterLink class="headerElement" to="/testberichte">Testberichte</RouterLink>
-    <RouterLink class="headerElement" to="/produkte">Produkte</RouterLink>
-    <RouterLink class="headerElement" to="/reiseberichte">Reiseberichte</RouterLink>
-    <RouterLink class="headerElement" to="/rundumsRad">Rund ums Rad</RouterLink>
-    <RouterLink class="headerElement" to="/community">community</RouterLink>
+    <span class="headerElement" @click="content.selectedCategorie='home'">Home</span>
+    <span class="headerElement" @click="content.selectedCategorie='testberichte'">Testberichte</span>
+    <span class="headerElement" @click="content.selectedCategorie='produkte'">Produkte</span>
+    <span class="headerElement" @click="content.selectedCategorie='reiseberichte'">Reiseberichte</span>
+    <span class="headerElement" @click="content.selectedCategorie='rundumsRad'">Rund ums Rad</span>
+    <span class="headerElement" @click="content.selectedCategorie='community'">community</span>
     <button class="headerElement" @click="toggleTheme">
       {{ theme === "dark" ? "🌙" : "☀️" }}
     </button>
   </header>
   <header class="phoneHeader">
-    <select>
-      <option value="all">Alle Artikel</option>
+    <select v-model="content.selectedCategorie">
+      <option value="home">Alle Artikel</option>
       <option value="testberichte">Testberichte</option>
       <option value="produkte">Produkte</option>
       <option value="reiseberichte">Reiseberichte</option>
