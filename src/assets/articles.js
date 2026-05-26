@@ -1,5 +1,38 @@
 export const articles = [{
-  categorie:"home",
+  categorie:"Produkte",
+  // normal, bigPicture, tripleComponent, textonly
+  viewStyle:"triple",
+  image:false,
+  videoLink:false,
+  orientation:"top",
+  // bigPicture: top, topright, right, bottomright, bottom, bottomleft, left, topleft
+  // normal: right, left
+  title:"Geschwindigkeit auf dem Liegerad",
+  text:"Kaum ein Gerücht ums Liegerad hält sich so konsequent, wie das seiner Überlegenen Geschwindigkeit. Viel viel ist da dran?",
+  content:[
+    {
+      title:"Es kommt drauf an:",
+      text:"Nämlich was für ein liegerad. Die Spanne geht auch hier, wie beim Aufrechtrad, von Stadtrad , Reiserad, bis zur Rennliege. Mit einem Tourenliegerad ist das Mithalten mit einem Rennrad erstmal ziemlich schwer",
+    },
+    {
+      tilte:"Es kommt drauf an:",
+      text:"Nämlich auf die genaueren Umstände. Bergauf und beim Beschleunigen haben Rennräder zwei Vorteile: Sie sind leichter und man kann aus dem Sattel gehen. Bei Gegenwind punktet das Liegerad dann durch seine bessere Aerodynamik."
+    },
+    {
+      title:"Rollwiederstand oder Aerodynamik",
+      text:"Mein erstes Liegerad kaufte ich in der Erwartung, ich wäre damit schneller, als mit meinem Gravelbike. Pustekuchen! Erst mit der Zeit hab ich gelernt, woran es lag. Die kleinen 20 Zoll Reifen haben einen wesentlich höheren rollwiederstand. Es kusiert der Faktor 1,5 - gefühlt vielleicht sogar noch etwas mehr. Bei meinem zweiten Liegerad hab ich dann direkt Reifen mit sehr geringem Rollwiederstand und TPU Schläuche verbaut. Und was soll ich sagen: Sobald der Rollwiederstand einmal reduziert war, läuft das Rad bei normaler Fahrt gerne mal 30 km/h im Schnitt. Und wenn ich etwas schneller Trete, komme ich wegen der guten Aerodynamik noch entspannt an die 40 km/h - auch auf längeren Strecken."
+    },
+    {
+      title:"Und gegen Rennradfahrer",
+      text:"Gegen einzelne Rennradfahrer bin ich mit dem liegerad im Vorteil. Nicht sosehr, dass es durch Fitness nicht wieder wett gemacht werden könnte, aber doch spürbar. Aber Vorsicht! Sobald Es sich um eine Gruppe von Rennradlern handelt, ist der aerodynamische Vorteil wieder weg und das Team zieht mir in der Regel davon."
+    }
+  ]
+},{
+  categorie:"testberichte",
+  viewStyle:"bigPicture",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -9,15 +42,10 @@ export const articles = [{
   }]
 },{
   categorie:"testberichte",
+  viewStyle:"textOnly",
   image:false,
-  title:"Title",
-  text:"text",
-  content:[{
-    title:"Title",
-    text:"text",
-  }]
-},{
-  categorie:"testberichte",
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -28,6 +56,10 @@ export const articles = [{
 },
 {
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -37,6 +69,10 @@ export const articles = [{
   }]
 },{
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -46,6 +82,10 @@ export const articles = [{
   }]
 },{
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -56,6 +96,10 @@ export const articles = [{
 },
 {
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -65,6 +109,10 @@ export const articles = [{
   }]
 },{
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -74,6 +122,10 @@ export const articles = [{
   }]
 },{
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -84,6 +136,10 @@ export const articles = [{
 },
 {
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -93,6 +149,10 @@ export const articles = [{
   }]
 },{
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",
@@ -102,6 +162,10 @@ export const articles = [{
   }]
 },{
   categorie:"testberichte",
+    viewStyle:"normal",
+  image:false,
+  videoLink:false,
+  orientation:"top",
   image:false,
   title:"Title",
   text:"text",

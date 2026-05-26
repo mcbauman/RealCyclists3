@@ -1,16 +1,36 @@
 <script setup>
+import Normal from './Normal.vue';
+import BigPicture from './BigPicture.vue';
+import TextOnly from './TextOnly.vue';
+import Triple from './Triple.vue';
+import Video from './Video.vue';
+// import OpenArticle from './OpenArticle.vue';
 const props = defineProps(["article"])
-
 </script>
 
 <template>
-    <article>
+    <div v-if="article.viewStyle==='normal'">
+        <Normal :content=article />
+    </div>
+    <div v-if="article.viewStyle==='bigPicture'">
+        <BigPicture :content=article />
+    </div>
+    <div v-if="article.viewStyle==='textOnly'">
+        <TextOnly :content=article />
+    </div>
+    <div v-if="article.viewStyle==='video'">
+        <TextOnly :content=article.videoLink />
+    </div>
+        <div v-if="article.viewStyle==='triple'">
+        <Triple :content=article />
+    </div>
+    <!-- <article>
         <h3>{{ article.title }}</h3>
         <p>{{ article.text }}</p>
-    </article>
+    </article> -->
 </template>
 
-<style scoped>
+<style>
     article{
         background-color: var(--bgText);
         padding: 10px;
