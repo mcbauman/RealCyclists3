@@ -56,7 +56,6 @@ watchEffect(() => {
 }
 article{
     background-color: var(--bgText);
-    padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
     backdrop-filter: blur(10px);

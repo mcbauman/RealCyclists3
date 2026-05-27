@@ -1,9 +1,14 @@
 <script setup>
 const props = defineProps(["content"])
+function addPicture(pitureName){
+  const imageUrl = pitureName ? new URL(`../assets/images/${pitureName}`, import.meta.url).href
+  : "";
+  return imageUrl
+}
 </script>
 
 <template>
-  <img class="modelPicture" :src="content.picture" alt="" />
+  <img class="modelPicture" :src="addPicture(content.picture)" alt="" />
   <section :class="content.orientation + ' ' + content.colorSchema">
     <h4>{{ content.header }}</h4>
     <h3>{{ content.title }}</h3>
@@ -23,7 +28,9 @@ section {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  text-shadow: 0px 0px 3px var(--gradient1);
+  background:var(--bgText);
+  text-shadow: 0 0 3px var(--textInverted);
+  color: var(--text);
   padding:10px
 }
 

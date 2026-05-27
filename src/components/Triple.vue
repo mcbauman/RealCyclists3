@@ -8,8 +8,8 @@ function addPicture(pitureName){
 </script>
 
 <template>
-  <h3 v-if="content.title && content.title.length > 0">{{ content.title }}</h3>
-  <p v-if="content.text && content.text.length > 0">{{ content.text }}</p>
+  <!-- <h3 v-if="content.title && content.title.length > 0">{{ content.title }}</h3>
+  <p v-if="content.text && content.text.length > 0">{{ content.text }}</p> -->
   
   <div class="trippleComponent">
     <div 

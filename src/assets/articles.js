@@ -18,8 +18,19 @@ export const articles = [
 //     }
 //   ]
 // },
+{
+  categorie:"rundUmsRad",
+  // normal, bigPicture, tripleComponent, textonly
+  viewStyle:"bigPicture",
+  picture:"fliteFull.jpg",
+  videoLink:false,
+  orientation:"top",
+  title:"RealCyclist geht online am 27.Mai 2026",
+  text:"",
+},
   {
-    categorie:"reiseberichte",
+    categorie:"rundUmsRad",
+    title:"RealCyclist",
     viewStyle:"triple",
     content:[
       {
@@ -40,7 +51,7 @@ export const articles = [
     ]
   },
   {
-  categorie:"rundUmsRad",
+  categorie:"community",
   // normal, bigPicture, tripleComponent, textonly
   viewStyle:"normal",
   picture:"criticalMassHamburg.jpeg",
