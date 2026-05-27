@@ -35,6 +35,8 @@ const toggleTheme = inject("toggleTheme");
 
 <style scoped>
 header {
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

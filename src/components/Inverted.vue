@@ -23,7 +23,7 @@ const imageUrl = props.content.picture
   width: 300px;
   height: 225px;
   object-fit: cover;
-  border-radius: 10px 0 0 10px;
+  border-radius:0 10px 10px 0;
 }
 div{
   padding:10px 20px;

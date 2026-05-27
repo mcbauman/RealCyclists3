@@ -21,30 +21,34 @@ export const articles = [
 // Toxy 26 Zoll
   {
     categorie:"testberichte",
-    viewStyle:"normal",
-    picture:"fliteFull.jpg",
+    viewStyle:"bigPicture",
+    picture:"toxy559.jpg",
     videoLink:false,
     orientation:"top",
     title:"26 Zoll an einem Toxy",
-    text:"",
-    content:[
-      {
-        title:"Leider kein Direkter Vergleichstest",
-        text:"Gleich vorneweg, ich habe leider keine abschließende Antwort, weil das Vergleichsrad in zu vielen Punkten unterschiedlich war. Theoretisch ist beim 26 Laufrad der Rollwiderstand geringer. Praktisch waren deutlich schlechtere Reifen montiert. Beides hat sich vermutlich ziemlich genau die Wage gehalten. Aerodynamisch müsste das 26 Zoll leicht im Nachteil sein - das Vergleichsrad hatte allerdings auch einen Koffer Montiert, am Prototypen eine Tasche. Dieser bringt gerne mal 2-3 km/h bei gemäßigter Reisegeschwindigkeit (geschätze 100-160Watt), die Tasche eher 1-2 km/h. Eine weitere Einschränkung gab es bei der Sitzposition: Sie ließ sich nicht perfekt auf mich einstellen - dies blieb aber die einzige Kinderkrankheit des Prototypen"
-      },
-      {
-        title:"wie schnell war es nun gegen mein TT",
-        text:"ca. zwei km/h langsamer hab ich den Prototypen gegenüber meinem Toxy TT mit Koffer bewegt. Ohne Koffer verkürzte sich der Geschwindigkeitsunterschied auf ca. 1 km/h. Beides waren Tests auf Straße ohne Ampeln oder zwischenstopps. Auf dem Weg zur Arbeit zeigt sich hingegen ein anderes Bild: Die durchschnittsgeschwindigkeit war ziemlich identisch, allerdings deutlich stabieler. Beim Beschleunigen war der Prototyp aufgrund der schwereren Laufräder spührbar träger als mein TT mit W8lite Laufrädern. Mein erster Eindruck: Das 26 Zoll Toxy ist in etwa gleichschnell wie mein TT, mit den richtigen Anpassung vielleicht marginal schneller. Allerdings ist der Geschwindigkeitunterschied im Alltag eindeutig zu klein, als dass er ein Update vom TT rechtfertigen könnte."
-      },
-      {
-        title:"Warum mich das 26 Zoll Toxy dennoch begeistert hat",
-        text:"Ruhe. Derweil das TT außerordentlich dynamisch auf kleinste Lenkbefehle reagiert, ist das 26er hier wesentlich gelassener, ruhiger. Der Federungskomfort spielt trotz vergleichbarer Überhöhung und Sitzneigung auf einem ganz anderen Level. Schlechte Wege können wesentlich schneller befahren werden. Am besten gefallen hat mir aber die Hohe Sitzposition und damit die bessere Übersicht über Weg und Verkehrssituation. Der Hohe Aufstieg erfordert etwas Übung, weshalb es sich für Liegeradanfänger nicht eignet. Aber als Reiserad oder Pendlerrad ist es mein klarer Favorit. Allerdings käme es für mich nur als 28 Zoll Version in Frage. Für 26 Zoll ist die Auswahl an passenden Laufrädern viel zu gering - und nochmal wesentlich kleiner als bei 20 Zoll."
-      },
-      {
-        title:"Chancen auf Serienproduktion",
-        text:"Nun es geht so. Auf der eine Seite fühlt es sich an wie die klassiche Weiterentwicklung nach dem ersten Liegerad. Mehr komfort und Übersicht bei gleicher Geschwindigkeit. Im direkten Wettbewerb gibt es nur ein weiteres, gefedertes 28 Zoll Liegerad. Allerdings hat das Toxy mit deinem Rahmen die Möglichkeit auf eine Frontfeder zu verbauen, das fehlt dem Konkurenten. Andererseits ist der Markt an zweispurigen Liegerädern schon sehr exklusiv."
-      }
-    ]
+text:"Bei Toxy hatte ich Gelegenheit, einen echten Prototypen mit 26-Zoll-Laufrädern (559 mm) ausführlich zu testen. Anfangs interessierte mich vor allem die Frage nach der Geschwindigkeit. Im Laufe der Tests wurde jedoch schnell klar: Die eigentlichen Stärken des Konzepts liegen ganz woanders.",
+content:[
+  {
+    title:"Sind 26-Zoll-Liegeräder schneller?",
+    text:"Die kurze Antwort: Dieses 26-Zoll-Toxy war nicht direkt schneller als mein Toxy TT. Theoretisch spricht der geringere Rollwiderstand größerer Laufräder zwar für einen Vorteil, praktisch wurde dieser aber durch die montierten Marathon Racer nahezu vollständig aufgezehrt. Mein TT mit Continental Contact Urban war im direkten Vergleich sogar leicht schneller. Hauptgründe dafür dürften die bessere Aerodynamik und die perfekt angepasste Sitzposition meines TT gewesen sein. Im Topspeed nehmen sich beide Räder unter vergleichbaren Bedingungen vermutlich kaum etwas. Mit gezielten Optimierungen könnte das 26er minimal schneller sein – der Unterschied wäre aber zu gering, um allein deshalb umzusteigen. Beim Beschleunigen war mein TT mit den leichten W8-Laufrädern hingegen deutlich spritziger. Interessanterweise war das 26er im Alltag in manchen Situation auch deutlich schneller. Dort wo es um Übersichtlichkeit geht oder schlechter Untergrund die Geschwindigkeit bestimmt. Auch wenn die Vergleichsstrecken relativ gut waren machte das 26er etwaige Nachteile beim Topspeed und Beschleunigen hier wieder komplett wett so dass die Durchschnittsgeschwindigkeit ziemlich identisch war. Damit sind 26er generell schneller, aber nicht wegen ihres Topspeeds, sondern wegen ihres Federungskomforts und Übersichtlichkeit."
+  },
+  {
+    title:"Wo das 26-Zoll-Toxy wirklich überzeugt",
+    text:"Die größten Unterschiede zeigten sich nicht bei der Geschwindigkeit, sondern beim Fahrgefühl. Das 26er fährt spürbar ruhiger und gelassener. Während mein TT extrem direkt auf kleine Lenkbewegungen reagiert, vermittelt das große Toxy deutlich mehr Laufruhe und Stabilität. Besonders auf schlechten Wegen spielt das Fahrwerk zusammen mit den größeren Rädern seine Stärken aus: Unebenheiten werden wesentlich souveräner weggefiltert und hohe Geschwindigkeiten auf schlechter Fahrbahn fühlen sich deutlich entspannter an. Dazu kommt die höhere Sitzposition, die sowohl die Übersicht im Verkehr als auch den Blick auf den Weg spürbar verbessert. Gerade als Pendel- oder Reiserad ist das Konzept deshalb äußerst attraktiv."
+  },
+  {
+    title:"Kein Liegerad für Anfänger",
+    text:"Die hohe Sitzposition hat allerdings auch Nachteile. Auf- und Absteigen erfordern deutlich mehr Übung als bei einem klassischen Toxy TT. Auch das Abstützen im Stand ist anspruchsvoller. Für erfahrene Liegeradfahrer dürfte das schnell zur Gewohnheit werden – für Anfänger ist das 559er Toxy dagegen eher ungeeignet. Wer gerade erst mit Liegerädern beginnt, wird sich auf einem niedrigeren und unkomplizierteren Modell vermutlich deutlich wohler fühlen."
+  },
+  {
+    title:"Warum für mich eigentlich nur 28 Zoll sinnvoll wäre",
+    text:"Das getestete Rad nutzte 559-mm-Laufräder, also klassisches 26 Zoll. Genau hier sehe ich aber auch die größte Schwäche des Konzepts: Die Auswahl an wirklich schnellen und gleichzeitig alltagstauglichen Reifen ist mittlerweile begrenzt. Für einen echten Vorteil bei Reifen- und Laufradauswahl müsste das Rad eigentlich 622-mm-Laufräder, also 28 Zoll, aufnehmen können. Erst dort wird die Auswahl an modernen Reifen wirklich interessant."
+  },
+  {
+    title:"Fazit",
+    text:"Das 26-Zoll-Toxy ist kein radikales Geschwindigkeits-Upgrade gegenüber einem gut aufgebauten Toxy TT. Unter vergleichbaren Bedingungen bewegen sich beide Räder leistungsmäßig sehr nah beieinander. Mit gezielten Optimierungen könnte das größere Rad minimal schneller sein, der Unterschied bleibt jedoch klein. Seine eigentlichen Stärken liegen woanders: mehr Übersicht, deutlich mehr Laufruhe und ein spürbar höherer Komfort – besonders auf schlechten Wegen. Gleichzeitig verlangt das Konzept aber mehr Erfahrung vom Fahrer. Der hohe Einstieg und das anspruchsvollere Handling im Stand machen das 559er klar zu einem Liegerad für Fortgeschrittene, nicht für Einsteiger."
+  }
+]
   },
   // Meine Schaltung
   {
@@ -81,16 +85,16 @@ export const articles = [
     text:"Eigentlich war ich sehr zufrieden mit den Big Ben Plus. Aber dann kam der Continental Pure Contact und hat mich überzeugt...",
     content:[
       {
-        title:"Pannenschutz",
-        text:"Ich fahre meistens zur Arbeit oder auf Reisen. Dabei wähle ich in der Regel der schnelleren Routen. Häufig auf Nebenstraßen, häufig auf Radwegen. Und sehr selten auf Grant-Wegen. Kein Pannenschutz ist für mich keine Option - das rechnet sich zeitlich und von ärger weder im Alltag, noch auf Radreisen. Und nur auf Straßen fahren, den Luxus kann ich mir nicht leisten, wenn ich ein konkretes Zeil erreichen muss. So individuell das klingen mag, möchte ich doch behaupten: Dieses Anforderungsprofil hat eine sehr weite Verbreitung. Und genau dazu ist der CCU der mit Abstand beste Reifen. Der Pannenschut ist nur gerignfügig schlechter als ein Marathon, dafür ist er aber wesentlich schneller. Bei Regen funktioniert er gut, er ist relativ leise, hält lange und ist sehr günstig."
+        title:"Gute Winterreifen bieten guten Pannenschutz",
+        text:"Im Winter wird in Deutschland leider immernoch häufig sehr fahrradunfreundliches Streugut großzügig Verwendet und das meist bis weit in den April hinein. Damit Explodiert die Gefahr eines Platten am Fahrrad. Von daher gilt für meine Winterreifen: Pannenschutz ist die wichtigste Disziplin, erst danach kommen Geschwindigkeit und Gewicht. Bisher bin ich Big Ben Plus gefahren. Ihr Pannenschutz ist (durch den niedrigeren Luftdruck) etwa auf Niveau der Marathon Plus, sie sind allerdings wesentlich schneller und Komfortabler. Bis zum leten Winter. Da hab ich die Continental Pure Contact ausprobiert und bin auf ganzer Linie Überzeugt"
       },
       {
         title:"Gewicht",
-        text:"Nun erstens: wenn ich weiß, dass ich ausschließlich auf Straßen oder Radwegen niederländischen Standarts unterweg sein werde. Dann darf der Reifen noch schneller sein (Rennradreifen). Die wichtigere Einschränkung ist aber: im Winter! Denn so gut der Reifen im Sommer ist, bei kalten Temperaturen nimmt der Rollwiederstand so kräftig zu, dass der CCU nicht mehr schnell ist. Außerdem muss ich leider regelmäßig durch Gemeinden, die ihre Radwege streuen - und dann auch noch mir den falschen Steinen. Diesen Winter werde ich mal den BigBen Plus versuchen. Am E-Bike bin ich mit diesem Reifen sehr zufrieden. Für den enormen Pannenschutz - auch durch seine größe und den geringen Luftdruck - ist er überraschend schnell!"
+        text:"Der Pannenschutz der Reifen ist minimal Geringer als die der Big Ben Plus. Das hab ich aber durch Tubolitos X-Tubo mehr als überkompensiert. Bezogen auf Komfort und Abrollverhalten konnte ich keine gravierenden Unterschiede feststellen. Aber das Gewicht ist eine komplett andere Liega. Die neuen Reifen wiegen ca 1/3 weniger. Das macht beim Beschleunigen einen riesigen Unterschied."
       },
       {
         title:"Farbe und Größen",
-        text:"Nun erstens: wenn ich weiß, dass ich ausschließlich auf Straßen oder Radwegen niederländischen Standarts unterweg sein werde. Dann darf der Reifen noch schneller sein (Rennradreifen). Die wichtigere Einschränkung ist aber: im Winter! Denn so gut der Reifen im Sommer ist, bei kalten Temperaturen nimmt der Rollwiederstand so kräftig zu, dass der CCU nicht mehr schnell ist. Außerdem muss ich leider regelmäßig durch Gemeinden, die ihre Radwege streuen - und dann auch noch mir den falschen Steinen. Diesen Winter werde ich mal den BigBen Plus versuchen. Am E-Bike bin ich mit diesem Reifen sehr zufrieden. Für den enormen Pannenschutz - auch durch seine größe und den geringen Luftdruck - ist er überraschend schnell!"
+        text:"Die Pure Contact gibt es neben Schwarz auch mit Braunen Seitenstreifen. Für mich sehen die Reifen damit super aus. Leider gibts sie nur in den modernen Standardgroßen 622 und 589 und auch nur ab 40mm."
       }
     ]
   },
