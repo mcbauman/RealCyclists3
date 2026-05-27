@@ -41,7 +41,7 @@ function addPicture(pitureName){
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
-         <div class="moreContent" v-if="content.currentArticle.content.length>1">
+         <div class="moreContent" v-if="content.currentArticle.content && content.currentArticle.content.length>1">
           <div v-for="section in content.currentArticle.content">
             <img
               class="homePictures" v-if="section.picture" 

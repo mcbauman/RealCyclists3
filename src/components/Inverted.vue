@@ -6,16 +6,16 @@ const imageUrl = props.content.picture
 </script>
 
 <template>
+    <div>
+    <h3>{{ content.title }}</h3>
+    <p>{{ content.text }}</p>
+  </div>
   <img
     class="homePictures"
     v-if="content.picture"
     :src="imageUrl"
     :alt="content.title"
   />
-  <div>
-    <h3>{{ content.title }}</h3>
-    <p>{{ content.text }}</p>
-  </div>
 </template>
 
 <style scoped>

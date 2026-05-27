@@ -3,6 +3,7 @@ import { ref, provide, watchEffect } from 'vue'
 import Header from './components/Header.vue';
 import { useContentStore } from '@/stores/content';
 import Normal from './components/Normal.vue';
+import Inverted from './components/Inverted.vue';
 import BigPicture from './components/BigPicture.vue';
 import TextOnly from './components/TextOnly.vue';
 import Triple from './components/Triple.vue';
@@ -30,6 +31,9 @@ watchEffect(() => {
     <div v-for="article in content.contentDisplayd" @click="content.currentArticle = article">
       <article v-if="article.viewStyle==='normal'">
         <Normal :content=article />
+      </article>
+      <article v-if="article.viewStyle==='inverted'">
+        <Inverted :content=article />
       </article>
       <article v-if="article.viewStyle==='bigPicture'">
         <BigPicture :content=article />
@@ -60,6 +64,11 @@ article{
     margin-top: 20px;
     backdrop-filter: blur(10px);
     display: flex;
+    transition: all 0.3s;
+}
+article:hover{
+  box-shadow: 2px 2px 5px var(--text);
+  transform: translate(2px, 2px);
 }
 
 </style>

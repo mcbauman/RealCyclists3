@@ -10,7 +10,6 @@ function addPicture(pitureName){
 <template>
   <img class="modelPicture" :src="addPicture(content.picture)" alt="" />
   <section :class="content.orientation + ' ' + content.colorSchema">
-    <h4>{{ content.header }}</h4>
     <h3>{{ content.title }}</h3>
     <p>
       {{ content.text }}
@@ -21,29 +20,16 @@ function addPicture(pitureName){
 <style scoped>
 
 section {
-  max-width: 100%;
+  /* max-width: 100%; */
   position: absolute;
   box-sizing: border-box;
   /* background: radial-gradient(circle, var(--gradient1), var(--gradient1), var(--gradient2)); */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
   background:var(--bgText);
   text-shadow: 0 0 3px var(--textInverted);
   color: var(--text);
   padding:10px
-}
-
-.blackOnWhite{
-  background: radial-gradient(circle, var(--gradient3), var(--gradient3), var(--gradient4));
-  text-shadow: 0 0 3px white;
-  color: black;
-}
-
-.inverted{
-  background: radial-gradient(circle, var(--gradient1), var(--gradient1), var(--gradient2));
-  text-shadow: 0 0 3px black;
-  color: white;
 }
 
 .modelPicture {
@@ -56,12 +42,14 @@ section {
   top: 0;
   /* max-width: 100%; */
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .topright {
   width: 40%;
   top: 0;
   right: 0;
+  border-radius:0 10px 0 10px;
 }
 
 .right {
@@ -69,35 +57,41 @@ section {
   width: min-content ;
   /* width: 33%; */
   right: 0;
+  border-radius:0 10px 10px 0 ;
 }
 
 .bottomright {
   width: 40%;
   bottom: 0;
   right: 0;
+  border-radius:10px 0 10px 0;
 }
 
 .bottom {
   bottom: 0%;
   width: 100%;
+  border-radius:0 0 10px 10px;
 }
 
 .bottomleft {
   width: 40%;
   bottom: 0;
   left: 0;
+  border-radius:0 10px 0 10px;
 }
 
 .left{
   height: 100%;
   width: min-content ;
   left: 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .topleft {
   width: 40%;
   top: 0;
   left: 0;
+  border-radius:10px 0 10px 0;
 }
 
 @media only screen and (max-width: 900px) {

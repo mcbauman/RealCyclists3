@@ -21,7 +21,6 @@ function addPicture(pitureName){
 
       <div class="content" >
         <div class="textBoxWP">
-          <h4>{{ element.header }}</h4>
           <h3>{{ element.title }}</h3>
           <p>{{ element.text }}</p>
         </div>
@@ -95,6 +94,10 @@ function addPicture(pitureName){
   background:var(--bgText);
   text-shadow: 0 0 3px var(--textInverted);
   color: var(--text);
+}
+
+p{
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 900px) {
