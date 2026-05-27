@@ -1,5 +1,10 @@
 <script setup>
 const pops = defineProps(["content"])
+function addPicture(pitureName){
+  const imageUrl = pitureName ? new URL(`../assets/images/${pitureName}`, import.meta.url).href
+  : "";
+  return imageUrl
+}
 </script>
 
 <template>
@@ -11,7 +16,7 @@ const pops = defineProps(["content"])
       v-for="(element, index) in content.content" 
       :key="index"
       class="trippleComponentContent"
-      :style="{ backgroundImage: 'url(' + element.picture + ')' }"
+      :style="{ backgroundImage: 'url(' + addPicture(element.picture) + ')' }"
     >
 
       <div class="content" >

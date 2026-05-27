@@ -1,5 +1,28 @@
-export const articles = [{
-  categorie:"Produkte",
+
+export const articles = [
+  {
+    categorie:"reiseberichte",
+    viewStyle:"triple",
+    content:[
+      {
+        title:"Fahrräder",
+        text:"Fahrräder für RealCycslists, egal ob zum Pendeln oder für die nächste Weltreise",
+        picture:"fahrrad.jpg"
+      },
+      {
+        title:"Rad-Reise",
+        text:"Reiseberichte, primär erstmal unsere eigenen.",
+        picture:"toxyParis.JPG"
+      },
+      {
+        title:"Technik",
+        text:"Technische Grundlagen, damit Dein nächstes Fahrrad perfekt zu Dir passt.",
+        picture:"technik.JPG"
+      }
+    ]
+  },
+  {
+  categorie:"produkte",
   // normal, bigPicture, tripleComponent, textonly
   viewStyle:"normal",
   picture:"fliteFull.jpg",

@@ -2,9 +2,11 @@
 import { useContentStore } from '@/stores/content';
 import CloseIcon from "@/assets/icons/CloseIcon.vue";
 const content = useContentStore()
-const imageUrl = content.currentArticle.picture
-  ? new URL(`../assets/images/${content.currentArticle.picture}`, import.meta.url).href
+function addPicture(pitureName){
+  const imageUrl = pitureName ? new URL(`../assets/images/${pitureName}`, import.meta.url).href
   : "";
+  return imageUrl
+}
 </script>
 <template>
   <div class="modalBackground">
@@ -20,7 +22,7 @@ const imageUrl = content.currentArticle.picture
           <img
             class="homePictures"
             v-if="content.currentArticle.picture && !content.currentArticle.videoLink"
-            :src="imageUrl"
+            :src="addPicture(content.currentArticle.picture)"
             :alt="content.currentArticle.picture"
           />
           <iframe
@@ -43,7 +45,7 @@ const imageUrl = content.currentArticle.picture
           <div v-for="section in content.currentArticle.content">
             <img
               class="homePictures" v-if="section.picture" 
-              :src="section.picture"
+              :src="addPicture(section.picture)"
               :alt="section.picture"
             />
             <span>
