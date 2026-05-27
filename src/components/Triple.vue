@@ -20,7 +20,7 @@ function addPicture(pitureName){
     >
 
       <div class="content" >
-        <div :class="'textBoxWP '+element.colorSchema">
+        <div class="textBoxWP">
           <h4>{{ element.header }}</h4>
           <h3>{{ element.title }}</h3>
           <p>{{ element.text }}</p>
@@ -41,18 +41,6 @@ function addPicture(pitureName){
   box-sizing: border-box;
 }
 
-.blackOnWhite{
-  background: radial-gradient(circle, var(--gradient3), var(--gradient3), var(--gradient4));
-  text-shadow: 0 0 3px white;
-  color: black;
-}
-
-.inverted{
-  background: radial-gradient(circle, var(--gradient1), var(--gradient1), var(--gradient2));
-  text-shadow: 0 0 3px black;
-  color: white;
-}
-
 .trippleComponentContent {
   position: relative;
   width: 32%;
@@ -62,7 +50,7 @@ function addPicture(pitureName){
   border-radius: 10px;
   overflow: hidden;
   color: white;
-  box-shadow: 0 4px 30px var(--shadow);
+  box-shadow: 0 4px 30px var(--bgText);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -97,13 +85,16 @@ function addPicture(pitureName){
 .textBoxWP {
   /* background: rgba(0, 0, 0, 0.25); */
   backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   padding: 10px;
   border-radius: 6px;
   /* display: none;  */
   opacity: 0;
   transition: all 0.6s ease;
   height: 100%;
+  background:var(--bgText);
+  text-shadow: 0 0 3px var(--textInverted);
+  color: var(--text);
 }
 
 @media only screen and (max-width: 900px) {

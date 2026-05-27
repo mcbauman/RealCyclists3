@@ -26,7 +26,10 @@ const imageUrl = props.content.picture
   border-radius: 10px 0 0 10px;
 }
 div{
-  padding: 20px;;
+  padding:10px 20px;
+}
+h3, p{
+  margin: 0;
 }
 @media only screen and (max-width: 900px) {
   article {

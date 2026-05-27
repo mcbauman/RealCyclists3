@@ -25,7 +25,12 @@ function addPicture(pitureName){
             :src="addPicture(content.currentArticle.picture)"
             :alt="content.currentArticle.picture"
           />
-          <iframe
+          <div>
+            <!-- <h3>{{ content.currentArticle.title }}</h3> -->
+            <p>{{ content.currentArticle.text }}</p>
+          </div>
+        </article>
+        <iframe
             v-if="content.currentArticle.videoLink"
             width="100%"
             height="810"
@@ -36,12 +41,7 @@ function addPicture(pitureName){
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
-          <div>
-            <h3>{{ content.currentArticle.title }}</h3>
-            <p>{{ content.currentArticle.text }}</p>
-          </div>
-        </article>
-         <div class="moreContent">
+         <div class="moreContent" v-if="content.currentArticle.content.length>1">
           <div v-for="section in content.currentArticle.content">
             <img
               class="homePictures" v-if="section.picture" 
@@ -65,6 +65,7 @@ function addPicture(pitureName){
 p, h3{
   padding:0 20px;
   line-height: 2em;
+  margin: 0;
 }
 
 h3{
@@ -98,12 +99,14 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
-    box-shadow: 0 0 3px var(--white07);
+    /* box-shadow: 0 0 3px var(--white07); */
+    border-radius: 10px;
+    background-color: var(--white15);
 }
 
 .articleModalHeader {
   display: flex;
-  background-color: var(--white07);
+  /* background-color: var(--white07); */
   color: var(--acticleColorHover);
   justify-content: space-between;
   align-items: center;
@@ -124,7 +127,7 @@ p{
 .acticleSection {
   display: flex;
   margin: 20px;
-  box-shadow: 0 0 1px var(--white);
+  /* box-shadow: 0 0 1px var(--white); */
 }
 
 .moreContent{

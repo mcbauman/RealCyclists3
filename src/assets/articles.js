@@ -1,5 +1,23 @@
 
 export const articles = [
+// {
+//   categorie:"produkte",
+//   // normal, bigPicture, tripleComponent, textonly
+//   viewStyle:"normal",
+//   picture:"fliteFull.jpg",
+//   videoLink:false,
+//   orientation:"top",
+//   // bigPicture: top, topright, right, bottomright, bottom, bottomleft, left, topleft
+//   // normal: right, left
+//   title:"",
+//   text:"",
+//   content:[
+//     {
+//       title:"",
+//       text:""
+//     }
+//   ]
+// },
   {
     categorie:"reiseberichte",
     viewStyle:"triple",
@@ -22,12 +40,30 @@ export const articles = [
     ]
   },
   {
+  categorie:"rundUmsRad",
+  // normal, bigPicture, tripleComponent, textonly
+  viewStyle:"normal",
+  picture:"criticalMassHamburg.jpeg",
+  videoLink:false,
+  orientation:"top",
+  // bigPicture: top, topright, right, bottomright, bottom, bottomleft, left, topleft
+  // normal: right, left
+  title:"Critical Mass Hamburg",
+  text:"Jeden letzten Freitag im Monat treffen sich hunderte, manchmal tausende Fahrradfahrer in Hamburg zum gemeinsamen Radeln. In meist sehr gemächlichem Tempo gehts dann durch Hamburg. Die Botschaft ist klar und deutlich, wir sind viele. Selbstkritsch sollte sich die Bewegung allergings langsam fragen, ob die Verhältnismäßifkeit in Hamburg noch stimmt. Immerhin baut die Stadt im großen Stil Radinfrastruktur. Aber in den Außenbezirken passiert meistens so gut wie garnix. Ich denke es wir dringend zeit, die Critical Mass in die Außenbezirke zu bringen! Kleinere Gruppen sind vo Restverkehr auch einfacher zu aktzeptieren.",
+  content:[
+    {
+      title:"",
+      text:""
+    }
+  ]
+},
+  {
   categorie:"produkte",
   // normal, bigPicture, tripleComponent, textonly
   viewStyle:"normal",
   picture:"fliteFull.jpg",
   videoLink:false,
-  orientation:"top",
+  orientation:"right",
   // bigPicture: top, topright, right, bottomright, bottom, bottomleft, left, topleft
   // normal: right, left
   title:"Geschwindigkeit auf dem Liegerad",
@@ -50,7 +86,8 @@ export const articles = [
       text:"Gegen einzelne Rennradfahrer bin ich mit dem liegerad im Vorteil. Nicht sosehr, dass es durch Fitness nicht wieder wett gemacht werden könnte, aber doch spürbar. Aber Vorsicht! Sobald Es sich um eine Gruppe von Rennradlern handelt, ist der aerodynamische Vorteil wieder weg und das Team zieht mir in der Regel davon."
     }
   ]
-},{
+},
+{
   categorie:"testberichte",
   viewStyle:"normal",
   picture:"fliteFull.jpg",

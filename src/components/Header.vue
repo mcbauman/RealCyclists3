@@ -13,7 +13,7 @@ const toggleTheme = inject("toggleTheme");
     <span class="headerElement" @click="content.selectedCategorie='produkte'">Produkte</span>
     <span class="headerElement" @click="content.selectedCategorie='reiseberichte'">Reiseberichte</span>
     <span class="headerElement" @click="content.selectedCategorie='rundumsRad'">Rund ums Rad</span>
-    <span class="headerElement" @click="content.selectedCategorie='community'">community</span>
+    <span class="headerElement" @click="content.selectedCategorie='community'">Community</span>
     <button class="headerElement" @click="toggleTheme">
       {{ theme === "dark" ? "🌙" : "☀️" }}
     </button>
