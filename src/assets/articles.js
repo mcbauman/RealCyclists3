@@ -18,6 +18,7 @@ export const articles = [
 //     }
 //   ]
 // },
+// Toxy 26 Zoll
   {
     categorie:"testberichte",
     viewStyle:"normal",
@@ -45,6 +46,7 @@ export const articles = [
       }
     ]
   },
+  // Meine Schaltung
   {
     categorie:"produkte",
     viewStyle:"normal",
@@ -68,6 +70,7 @@ export const articles = [
       }
     ]
   },
+  // Pure Contact
   {
     categorie:"produkte",
     viewStyle:"textOnly",
@@ -91,6 +94,7 @@ export const articles = [
       }
     ]
   },
+  // CCU
   {
     categorie:"produkte",
     // normal, bigPicture, tripleComponent, textonly
@@ -113,6 +117,7 @@ export const articles = [
       }
     ]
   },
+  // ReifenwahlTriple
   {
     categorie:"produkte",
     // normal, bigPicture, tripleComponent, textonly
@@ -143,6 +148,7 @@ export const articles = [
       }
     ]
   },
+  // Reifenbreite
   {
     categorie:"produkte",
     viewStyle:"inverted",
@@ -166,6 +172,7 @@ export const articles = [
       }
     ]
   },
+  // Criticall Mass Hamburg
   {
     categorie:"community",
     // normal, bigPicture, tripleComponent, textonly
@@ -184,6 +191,7 @@ export const articles = [
       }
     ]
   },
+  // Geschwindigkeit auf dem Liegerad
   {
     categorie:"produkte",
     // normal, bigPicture, tripleComponent, textonly
@@ -214,6 +222,7 @@ export const articles = [
       }
     ]
   },
+  // Mein Cube Editor
   {
     categorie:"Testberichte",
     viewStyle:"normal",
@@ -233,6 +242,7 @@ export const articles = [
       }
     ]
   },
+  // Nabenschaltungen
   {
     categorie:"produkte",
     viewStyle:"normal",
@@ -260,6 +270,7 @@ export const articles = [
       }
     ]
   },
+  // toxy Flite
   {
     categorie:"testberichte",
     viewStyle:"normal",
@@ -291,6 +302,23 @@ export const articles = [
       }
     ]
   },
+// RadReise Dänemark
+  {
+    categorie:"reiseberichte",
+    viewStyle:"bigPicture",
+    picture:"Dänemark.jpg",
+    videoLink:false,
+    orientation:"top",
+    title:"Perfekt für Anfänger, Radreise in Dänemark",
+    text:"Eine unserer ersten Radreisen ging durch Dänemark. Warum das vermutlich die beste Idee für Neulinge ist wurde uns sehr schnell klar. Bei den Themen: Übernachten, Wasser, Strom und Toilette hat uns das Land großzügig umsorgt.",
+    content:[
+      {
+        title:"",
+        text:""
+      }
+    ]
+  },
+  // Gravelbike
   {
     categorie:"Testberichte",
     viewStyle:"normal",
@@ -310,6 +338,7 @@ export const articles = [
       }
     ]
   },
+  // Liegerader
   {
     categorie:"testberichte",
     viewStyle:"textOnly",
@@ -351,6 +380,7 @@ export const articles = [
       }
     ]
   },
+  // RC Content-Triple
   {
     categorie:"rundUmsRad",
     title:"RealCyclist",
@@ -373,6 +403,7 @@ export const articles = [
       }
     ]
   },
+  // RC geht online
   {
     categorie:"rundUmsRad",
     // normal, bigPicture, tripleComponent, textonly
