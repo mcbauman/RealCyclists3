@@ -26,8 +26,8 @@ export const articles = [
     videoLink:false,
     orientation:"top",
     title:"26 Zoll an einem Toxy",
-text:"Bei Toxy hatte ich Gelegenheit, einen echten Prototypen mit 26-Zoll-Laufrädern (559 mm) ausführlich zu testen. Anfangs interessierte mich vor allem die Frage nach der Geschwindigkeit. Im Laufe der Tests wurde jedoch schnell klar: Die eigentlichen Stärken des Konzepts liegen ganz woanders.",
-content:[
+    text:"Bei Toxy hatte ich Gelegenheit, einen echten Prototypen mit 26-Zoll-Laufrädern (559 mm) ausführlich zu testen. Anfangs interessierte mich vor allem die Frage nach der Geschwindigkeit. Im Laufe der Tests wurde jedoch schnell klar: Die eigentlichen Stärken des Konzepts liegen ganz woanders.",
+    content:[
   {
     title:"Sind 26-Zoll-Liegeräder schneller?",
     text:"Die kurze Antwort: Dieses 26-Zoll-Toxy war nicht direkt schneller als mein Toxy TT. Theoretisch spricht der geringere Rollwiderstand größerer Laufräder zwar für einen Vorteil, praktisch wurde dieser aber durch die montierten Marathon Racer nahezu vollständig aufgezehrt. Mein TT mit Continental Contact Urban war im direkten Vergleich sogar leicht schneller. Hauptgründe dafür dürften die bessere Aerodynamik und die perfekt angepasste Sitzposition meines TT gewesen sein. Im Topspeed nehmen sich beide Räder unter vergleichbaren Bedingungen vermutlich kaum etwas. Mit gezielten Optimierungen könnte das 26er minimal schneller sein – der Unterschied wäre aber zu gering, um allein deshalb umzusteigen. Beim Beschleunigen war mein TT mit den leichten W8-Laufrädern hingegen deutlich spritziger. Interessanterweise war das 26er im Alltag in manchen Situation auch deutlich schneller. Dort wo es um Übersichtlichkeit geht oder schlechter Untergrund die Geschwindigkeit bestimmt. Auch wenn die Vergleichsstrecken relativ gut waren machte das 26er etwaige Nachteile beim Topspeed und Beschleunigen hier wieder komplett wett so dass die Durchschnittsgeschwindigkeit ziemlich identisch war. Damit sind 26er generell schneller, aber nicht wegen ihres Topspeeds, sondern wegen ihres Federungskomforts und Übersichtlichkeit."
@@ -309,7 +309,7 @@ content:[
 // RadReise Dänemark
   {
     categorie:"reiseberichte",
-    viewStyle:"bigPicture",
+    viewStyle:"bigPictureDark",
     picture:"Dänemark.jpg",
     videoLink:false,
     orientation:"top",

@@ -35,7 +35,7 @@ div{
   }
   .homePictures {
     width: 100%;
-    border-radius:10px 10px 0 0;
+    border-radius:0 0 10px 10px;
   }
 }
 </style>

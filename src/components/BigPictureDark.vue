@@ -26,9 +26,9 @@ section {
   /* background: radial-gradient(circle, var(--gradient1), var(--gradient1), var(--gradient2)); */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  background:var(--bgText);
-  text-shadow: 0 0 3px var(--textInverted);
-  color: var(--text);
+  background:var(--black05);
+  text-shadow: 0 0 3px var(--black);
+  color: var(--white);
   padding:10px
 }
 
@@ -94,7 +94,7 @@ section {
     left: 0;
     border-radius:10px 0 10px 0;
   }
-  
+
 }
 
 
@@ -126,9 +126,8 @@ section {
 @media only screen and (max-width: 700px) {
 section {
     position: relative;
-    background: unset;
-    backdrop-filter: unset;
     width: unset;
+        backdrop-filter: unset;
     padding: 5px;
     border-radius: 0 0 10px 10px;
   }

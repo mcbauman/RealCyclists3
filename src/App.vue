@@ -5,6 +5,7 @@ import { useContentStore } from '@/stores/content';
 import Normal from './components/Normal.vue';
 import Inverted from './components/Inverted.vue';
 import BigPicture from './components/BigPicture.vue';
+import BigPictureDark from './components/BigPictureDark.vue';
 import TextOnly from './components/TextOnly.vue';
 import Triple from './components/Triple.vue';
 import Video from './components/Video.vue';
@@ -38,6 +39,9 @@ watchEffect(() => {
       <article v-if="article.viewStyle==='bigPicture'">
         <BigPicture :content=article />
       </article>
+      <article v-if="article.viewStyle==='bigPictureDark'">
+        <BigPictureDark :content=article />
+      </article>
       <article v-if="article.viewStyle==='textOnly'">
         <TextOnly :content=article />
       </article>
@@ -55,7 +59,6 @@ watchEffect(() => {
   /* background-color: var(--bgText); */
   color: var(--text);
   padding: 50px 20px 20px 20px;
-  margin: 0;
   min-height: 100vh;
 }
 article{
@@ -70,5 +73,9 @@ article:hover{
   box-shadow: 2px 2px 5px var(--text);
   transform: translate(2px, 2px);
 }
-
+@media only screen and (max-width: 700px) {
+  article{
+    flex-direction: column;
+  }
+}
 </style>

@@ -86,7 +86,7 @@ function addPicture(pitureName){
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   padding: 10px;
-  border-radius: 6px;
+
   /* display: none;  */
   opacity: 0;
   transition: all 0.6s ease;
@@ -114,11 +114,19 @@ p{
   .trippleComponent {
     flex-direction: column;
     height: auto;
+    gap: 0;
   }
 
   .trippleComponentContent {
     width: 100%;
+    border-radius: 0;
     /* height: 200px; */
+  }
+  .trippleComponentContent:first-child{
+    border-radius: 10px 10px 0 0;
+  }
+    .trippleComponentContent:last-child{
+    border-radius:0 0 10px 10px;
   }
 }
 </style>
