@@ -17,7 +17,7 @@ export const articles = [
   //     }
   //   ]
   // },
-  // Toxy 26 Zoll
+  // Toxy 26 Zoll OK
   {
     categorie: "testberichte",
     viewStyle: "bigPicture",
@@ -25,98 +25,76 @@ export const articles = [
     videoLink: false,
     orientation: "top",
     title: "26 Zoll an einem Toxy",
-    text: "Bei Toxy hatte ich Gelegenheit, einen echten Prototypen mit 26-Zoll-Laufrädern (559 mm) ausführlich zu testen. Anfangs interessierte mich vor allem die Frage nach der Geschwindigkeit. Im Laufe der Tests wurde jedoch schnell klar: Die eigentlichen Stärken des Konzepts liegen ganz woanders.",
+    text: "Bei Toxy hatte ich die Gelegenheit, einen echten Prototypen mit 26-Zoll-Laufrädern (559 mm) ausführlich zu testen. Anfangs interessierte mich vor allem die Frage nach der Geschwindigkeit. Im Laufe der Tests wurde jedoch schnell klar: Die eigentlichen Stärken dieses Konzepts liegen ganz woanders.",
     content: [
       {
         title: "Sind 26-Zoll-Liegeräder schneller?",
-        text: "Die kurze Antwort: Dieses 26-Zoll-Toxy war nicht direkt schneller als mein Toxy TT. Theoretisch spricht der geringere Rollwiderstand größerer Laufräder zwar für einen Vorteil, praktisch wurde dieser aber durch die montierten Marathon Racer nahezu vollständig aufgezehrt. Mein TT mit Continental Contact Urban war im direkten Vergleich sogar leicht schneller. Hauptgründe dafür dürften die bessere Aerodynamik und die perfekt angepasste Sitzposition meines TT gewesen sein. Im Topspeed nehmen sich beide Räder unter vergleichbaren Bedingungen vermutlich kaum etwas. Mit gezielten Optimierungen könnte das 26er minimal schneller sein – der Unterschied wäre aber zu gering, um allein deshalb umzusteigen. Beim Beschleunigen war mein TT mit den leichten W8-Laufrädern hingegen deutlich spritziger. Interessanterweise war das 26er im Alltag in manchen Situation auch deutlich schneller. Dort wo es um Übersichtlichkeit geht oder schlechter Untergrund die Geschwindigkeit bestimmt. Auch wenn die Vergleichsstrecken relativ gut waren machte das 26er etwaige Nachteile beim Topspeed und Beschleunigen hier wieder komplett wett so dass die Durchschnittsgeschwindigkeit ziemlich identisch war. Damit sind 26er generell schneller, aber nicht wegen ihres Topspeeds, sondern wegen ihres Federungskomforts und Übersichtlichkeit.",
+        text: "Die kurze Antwort lautet: nicht unbedingt. Das getestete 26-Zoll-Toxy war im direkten Vergleich nicht schneller als mein eigenes Toxy TT. Theoretisch spricht zwar der geringere Rollwiderstand großer Laufräder klar für das 26er-Konzept, praktisch wurde dieser Vorteil durch die montierten Marathon Racer fast vollständig aufgefressen. Mein TT mit Continental Contact Urban wirkte im direkten Vergleich sogar leicht schneller. Hauptgründe dafür dürften die bessere Aerodynamik und die perfekt angepasste Sitzposition meines TT gewesen sein. Beim Topspeed lagen beide Räder unter vergleichbaren Bedingungen extrem nah beieinander. Mit gezielten Optimierungen könnte das 26er vermutlich minimal schneller sein — der Unterschied wäre aber zu klein, um allein deshalb umzusteigen.",
       },
       {
-        title: "Wo das 26-Zoll-Toxy wirklich überzeugt",
-        text: "Die größten Unterschiede zeigten sich nicht bei der Geschwindigkeit, sondern beim Fahrgefühl. Das 26er fährt spürbar ruhiger und gelassener. Während mein TT extrem direkt auf kleine Lenkbewegungen reagiert, vermittelt das große Toxy deutlich mehr Laufruhe und Stabilität. Besonders auf schlechten Wegen spielt das Fahrwerk zusammen mit den größeren Rädern seine Stärken aus: Unebenheiten werden wesentlich souveräner weggefiltert und hohe Geschwindigkeiten auf schlechter Fahrbahn fühlen sich deutlich entspannter an. Dazu kommt die höhere Sitzposition, die sowohl die Übersicht im Verkehr als auch den Blick auf den Weg spürbar verbessert. Gerade als Pendel- oder Reiserad ist das Konzept deshalb äußerst attraktiv.",
+        title: "Warum das 26er im Alltag trotzdem oft schneller wirkt",
+        text: "Interessanterweise war das große Toxy im Alltag in vielen Situationen trotzdem schneller. Nicht wegen des Topspeeds, sondern weil andere Faktoren plötzlich wichtiger werden. Die höhere Sitzposition verbessert die Übersicht im Verkehr deutlich und schlechte Wege kosten spürbar weniger Geschwindigkeit. Während kleine Liegeräder auf rauem Untergrund oft Tempo verlieren oder nervös wirken, rollt das 26er erstaunlich souverän weiter. Dadurch waren die Durchschnittsgeschwindigkeiten auf realen Strecken am Ende praktisch identisch — trotz der deutlich spritzigeren Beschleunigung meines TT. Genau deshalb könnten große Laufräder im Alltag tatsächlich schneller sein, allerdings eher durch Komfort und Übersicht als durch reine Aerodynamik.",
+      },
+      {
+        title: "Mehr Laufruhe, mehr Komfort",
+        text: "Die größten Unterschiede zeigten sich letztlich nicht bei der Geschwindigkeit, sondern beim Fahrgefühl. Das 26er fährt sich deutlich ruhiger und gelassener. Während mein TT extrem direkt auf kleine Lenkbewegungen reagiert, vermittelt das große Toxy spürbar mehr Stabilität. Besonders auf schlechten Wegen spielt das Fahrwerk zusammen mit den großen Rädern seine Stärke aus. Unebenheiten werden wesentlich souveräner weggefiltert und hohe Geschwindigkeiten auf rauem Untergrund fühlen sich deutlich entspannter an. Gerade als Pendel- oder Reiserad wirkt das Konzept deshalb extrem attraktiv.",
       },
       {
         title: "Kein Liegerad für Anfänger",
-        text: "Die hohe Sitzposition hat allerdings auch Nachteile. Auf- und Absteigen erfordern deutlich mehr Übung als bei einem klassischen Toxy TT. Auch das Abstützen im Stand ist anspruchsvoller. Für erfahrene Liegeradfahrer dürfte das schnell zur Gewohnheit werden – für Anfänger ist das 559er Toxy dagegen eher ungeeignet. Wer gerade erst mit Liegerädern beginnt, wird sich auf einem niedrigeren und unkomplizierteren Modell vermutlich deutlich wohler fühlen.",
+        text: "Die hohe Sitzposition bringt allerdings auch Nachteile mit sich. Auf- und Absteigen erfordern deutlich mehr Übung als bei einem klassischen Toxy TT. Auch das Abstützen im Stand ist anspruchsvoller. Erfahrene Liegeradfahrer gewöhnen sich daran vermutlich schnell — für Anfänger ist das 559er-Toxy dagegen eher ungeeignet. Wer gerade erst mit Liegerädern beginnt, wird sich auf einem niedrigeren und unkomplizierteren Modell wahrscheinlich deutlich wohler fühlen.",
       },
       {
-        title: "Warum für mich eigentlich nur 28 Zoll sinnvoll wäre",
-        text: "Das getestete Rad nutzte 559-mm-Laufräder, also klassisches 26 Zoll. Genau hier sehe ich aber auch die größte Schwäche des Konzepts: Die Auswahl an wirklich schnellen und gleichzeitig alltagstauglichen Reifen ist mittlerweile begrenzt. Für einen echten Vorteil bei Reifen- und Laufradauswahl müsste das Rad eigentlich 622-mm-Laufräder, also 28 Zoll, aufnehmen können. Erst dort wird die Auswahl an modernen Reifen wirklich interessant.",
+        title: "Eigentlich müsste es 28 Zoll sein",
+        text: "Das getestete Rad nutzte klassische 559-mm-Laufräder, also 26 Zoll. Genau dort sehe ich heute aber auch die größte Schwäche des Konzepts. Die Auswahl an wirklich schnellen und gleichzeitig alltagstauglichen Reifen wird in diesem Format zunehmend kleiner. Für einen echten Vorteil bei Reifen- und Laufradauswahl müsste das Konzept eigentlich konsequent auf 622 mm beziehungsweise 28 Zoll setzen. Erst dort wird die Auswahl moderner Reifen wirklich interessant — gerade bei schnellen, komfortablen und tubelessfähigen Modellen.",
       },
       {
         title: "Fazit",
-        text: "Das 26-Zoll-Toxy ist kein radikales Geschwindigkeits-Upgrade gegenüber einem gut aufgebauten Toxy TT. Unter vergleichbaren Bedingungen bewegen sich beide Räder leistungsmäßig sehr nah beieinander. Mit gezielten Optimierungen könnte das größere Rad minimal schneller sein, der Unterschied bleibt jedoch klein. Seine eigentlichen Stärken liegen woanders: mehr Übersicht, deutlich mehr Laufruhe und ein spürbar höherer Komfort – besonders auf schlechten Wegen. Gleichzeitig verlangt das Konzept aber mehr Erfahrung vom Fahrer. Der hohe Einstieg und das anspruchsvollere Handling im Stand machen das 559er klar zu einem Liegerad für Fortgeschrittene, nicht für Einsteiger.",
+        text: "Das 26-Zoll-Toxy ist kein radikales Geschwindigkeits-Upgrade gegenüber einem gut aufgebauten Toxy TT. Unter vergleichbaren Bedingungen bewegen sich beide Räder leistungsmäßig extrem nah beieinander. Seine eigentlichen Stärken liegen woanders: mehr Übersicht, deutlich mehr Laufruhe und ein spürbar höherer Komfort — besonders auf schlechten Wegen. Genau dadurch wirkt das große Toxy im Alltag oft souveräner und entspannter. Gleichzeitig verlangt das Konzept aber auch mehr Erfahrung vom Fahrer. Der hohe Einstieg und das anspruchsvollere Handling im Stand machen das 559er klar zu einem Liegerad für Fortgeschrittene — nicht für Einsteiger.",
       },
     ],
   },
-  // Meine Schaltung
-  {
-    categorie: "produkte",
-    viewStyle: "normal",
-    picture: false,
-    videoLink: false,
-    orientation: "top",
-    title: "Meine neue Schaltung",
-    text: "",
-    content: [
-      {
-        title: "135 mm Einbaubreite, kleine Auswahl aber günstig",
-        text: "Nun vorweg sei Gesagt: Ohne Restriktionen hätte ich mich für die elektronische SRAM 12 Gang mit 10-33 Kassette entschieden. Nun Lieder passt das nicht an mein Toxy - die nötige Einbaubreite wäre hier 142, und ich hab nur 135 mm zur Verfügung.",
-      },
-      {
-        title: "Zielsetzung und verbleibende Auswahl",
-        text: "Ich wollte die gangsprünge in den schnellen Gängen möglichst gering halten, damit mir bei normaler Fahrt immer der richtige Gang zur Verfügung steht. Empfunden bin ich dabei auf dem liegerad noch sensibler für die effektive Trittfrequenz. Theroetisch hätten 11 Gänge aus dem MTB-Bereich gepasst. Praktisch gibt es dort keine Kassetten mir enger Abstufung in den Hohen Gängen - Bei Road Kassetten ist wieder das Problem mit der Einbaubreite. Daher blieben nur 9 oder 10 Gang übrig. Der Unterschied ist hier lediglich ein Gang den ich bei ca. 24 fahre - also auch nur bei leichten Steigungen. 9 Gang bietet noch die absolute Kompatiblität, bei 10 Gang muss man da ganz genau hingucken. Und dann ist 9 Gang noch sehr günstig. Optimalerweise hätte ich 10 Gang mit 11-28 Gewählt - Ich hab mich aber für die halb so teuere 9 Gang 11-28 entschieden.",
-      },
-      {
-        title: "und Für die Zukunft",
-        text: "Die Auswahl guter Komponenten für 9 Gang wird deutlich klein. 10 Gang ist noch mit meinem Rahmen kompatibel und bietet auch sehr hochwertige Komponenten. Damit mein Rad auch Fit für die Zukunft bleibt, wird meine Schaltung beim nächsten Mal sicher eine 10 Gang. Weiterhin mit zwei Kettenblättern vorne, um den gleichen Übersetzungebereich einer 12Gang zu erreichen.",
-      },
-    ],
-  },
-  // Pure Contact
+    // Reifen NICHT IO
   {
     categorie: "produkte",
     viewStyle: "textOnly",
-    picture: false,
+    picture: "BigBenPlus.jpg",
     videoLink: false,
-    orientation: "top",
-    title: "Mein neuer Winterreifen",
-    text: "Eigentlich war ich sehr zufrieden mit den Big Ben Plus. Aber dann kam der Continental Pure Contact und hat mich überzeugt...",
+    orientation: "right",
+    title: "Der richtige Fahrradreifen",
+    text: "Kaum ein Bauteil verändert ein Fahrrad so stark wie der richtige Reifen. Geschwindigkeit, Komfort, Pannenschutz und Fahrgefühl hängen oft stärker vom Reifen ab als vom Fahrrad selbst. Gleichzeitig gibt es nicht den einen perfekten Reifen — sondern immer nur den besten Reifen für den jeweiligen Einsatzzweck.",
     content: [
       {
-        title: "Gute Winterreifen bieten guten Pannenschutz",
-        text: "Im Winter wird in Deutschland leider immernoch häufig sehr fahrradunfreundliches Streugut großzügig Verwendet und das meist bis weit in den April hinein. Damit Explodiert die Gefahr eines Platten am Fahrrad. Von daher gilt für meine Winterreifen: Pannenschutz ist die wichtigste Disziplin, erst danach kommen Geschwindigkeit und Gewicht. Bisher bin ich Big Ben Plus gefahren. Ihr Pannenschutz ist (durch den niedrigeren Luftdruck) etwa auf Niveau der Marathon Plus, sie sind allerdings wesentlich schneller und Komfortabler. Bis zum leten Winter. Da hab ich die Continental Pure Contact ausprobiert und bin auf ganzer Linie Überzeugt",
+        title: "Die vier großen Faktoren",
+        text: "Bei Fahrradreifen stehen immer vier Eigenschaften in Konkurrenz zueinander: Rollwiderstand, Pannenschutz, Gewicht und Komfort. Ein schneller Reifen rollt leicht und spart Kraft, bietet dafür aber oft weniger Schutz vor Glasscherben oder Dornen. Viel Pannenschutz erhöht wiederum Gewicht und Rollwiderstand. Breitere Reifen verbessern Komfort und Grip, während schmale Reifen aerodynamische Vorteile haben. Genau deshalb ist Reifenwahl immer ein Kompromiss — und gleichzeitig eine erstaunlich persönliche Entscheidung.",
       },
       {
-        title: "Gewicht",
-        text: "Der Pannenschutz der Reifen ist minimal Geringer als die der Big Ben Plus. Das hab ich aber durch Tubolitos X-Tubo mehr als überkompensiert. Bezogen auf Komfort und Abrollverhalten konnte ich keine gravierenden Unterschiede feststellen. Aber das Gewicht ist eine komplett andere Liega. Die neuen Reifen wiegen ca 1/3 weniger. Das macht beim Beschleunigen einen riesigen Unterschied.",
+        title:
+          "Warum Pannenschutz im Alltag wichtiger ist als absolute Geschwindigkeit",
+        text: "Im Alltag und auf Radreisen ist ein platter Reifen nicht einfach nur ärgerlich, sondern oft ein echtes Problem. Gerade im Winter wird in Deutschland leider noch immer extrem fahrradunfreundliches Streugut verwendet — häufig sogar bis weit in den Frühling hinein. Dadurch steigt das Risiko für Durchstiche massiv an. Für mich gilt deshalb ganz klar: Ein guter Alltagsreifen braucht zuerst zuverlässigen Pannenschutz. Erst danach kommen Geschwindigkeit, Gewicht oder Aerodynamik. Denn der theoretisch schnellste Reifen bringt wenig, wenn man regelmäßig am Straßenrand Schläuche wechseln muss.",
       },
       {
-        title: "Farbe und Größen",
-        text: "Die Pure Contact gibt es neben Schwarz auch mit Braunen Seitenstreifen. Für mich sehen die Reifen damit super aus. Leider gibts sie nur in den modernen Standardgroßen 622 und 589 und auch nur ab 40mm.",
-      },
-    ],
-  },
-  // CCU
-  {
-    categorie: "produkte",
-    // normal, bigPicture, tripleComponent, textonly
-    viewStyle: "textOnly",
-    picture: false,
-    videoLink: false,
-    orientation: "top",
-    // bigPicture: top, topright, right, bottomright, bottom, bottomleft, left, topleft
-    // normal: right, left
-    title: "Der beste Reifen",
-    text: "Eins sei gleich vorneweg gesagt: Den besten Reifen gibt es nicht. Zu unterschiedlich sind dazu die Ansprüche. Aber es gibt die besten Reifen seiner Art!",
-    content: [
-      {
-        title: "Einsatszweck",
-        text: "Ich fahre meistens zur Arbeit oder auf Reisen. Dabei wähle ich in der Regel der schnelleren Routen. Häufig auf Nebenstraßen, häufig auf Radwegen. Und sehr selten auf Grant-Wegen. Kein Pannenschutz ist für mich keine Option - das rechnet sich zeitlich und von ärger weder im Alltag, noch auf Radreisen. Und nur auf Straßen fahren, den Luxus kann ich mir nicht leisten, wenn ich ein konkretes Zeil erreichen muss. So individuell das klingen mag, möchte ich doch behaupten: Dieses Anforderungsprofil hat eine sehr weite Verbreitung. Und genau dazu ist der CCU der mit Abstand beste Reifen. Der Pannenschut ist nur gerignfügig schlechter als ein Marathon, dafür ist er aber wesentlich schneller. Bei Regen funktioniert er gut, er ist relativ leise, hält lange und ist sehr günstig.",
+        title: "Der Continental Contact Urban",
+        text: "Für meinen typischen Alltag — Arbeitsweg, längere Strecken, Reisen und wechselnde Untergründe — ist der Continental Contact Urban aktuell einer der besten Reifen überhaupt. Sein Pannenschutz liegt nur leicht unter einem Marathon Plus, gleichzeitig rollt er aber deutlich schneller, fährt sich leiser und wirkt wesentlich lebendiger. Gerade auf längeren Strecken merkt man schnell, wie effizient der Reifen läuft. Dazu kommt: Er funktioniert bei Regen hervorragend, hält lange und bleibt preislich erstaunlich fair.",
       },
       {
-        title: "Wann ich den CCU nicht fahre",
-        text: "Nun erstens: wenn ich weiß, dass ich ausschließlich auf Straßen oder Radwegen niederländischen Standarts unterweg sein werde. Dann darf der Reifen noch schneller sein (Rennradreifen). Die wichtigere Einschränkung ist aber: im Winter! Denn so gut der Reifen im Sommer ist, bei kalten Temperaturen nimmt der Rollwiederstand so kräftig zu, dass der CCU nicht mehr schnell ist. Außerdem muss ich leider regelmäßig durch Gemeinden, die ihre Radwege streuen - und dann auch noch mir den falschen Steinen. Diesen Winter werde ich mal den BigBen Plus versuchen. Am E-Bike bin ich mit diesem Reifen sehr zufrieden. Für den enormen Pannenschutz - auch durch seine größe und den geringen Luftdruck - ist er überraschend schnell!",
+        title: "Warum Reifenbreite heute anders bewertet wird",
+        text: "Früher galt fast automatisch: schmale Reifen sind schnell, breite Reifen langsam. Moderne Reifen zeigen inzwischen, dass das so pauschal nicht mehr stimmt. Breitere Reifen können durch geringeren Walkverlust und niedrigeren Luftdruck sogar leichter rollen. Gleichzeitig erhöhen sie Komfort, Grip und Pannenschutz. Mein 42-mm-Reifen rollt beispielsweise trotz geringerem Luftdruck teilweise sogar besser als ein schmalerer 32er. Besonders im Winter wird dieser Unterschied spürbar. Erst bei höheren Geschwindigkeiten jenseits der 30 km/h spielen die aerodynamischen Vorteile schmalerer Reifen langsam eine größere Rolle.",
+      },
+      {
+        title: "Warum Gewicht trotzdem wichtig bleibt",
+        text: "Bei konstanter Geschwindigkeit spielt das reine Gewicht eines Reifens überraschend wenig Rolle. Entscheidend wird es beim Beschleunigen. Schwere Reifen fühlen sich oft träge an, leichte Reifen dagegen spritzig und lebendig. Genau deshalb machen moderne Reifen mit geringerem Gewicht einen enormen Unterschied im Fahrgefühl. Der Continental Pure Contact hat mich genau dort überrascht. Gegenüber meinen bisherigen Big Ben Plus wiegt er rund ein Drittel weniger. Zusammen mit leichten TPU-Schläuchen wirkt das Fahrrad plötzlich deutlich dynamischer, ohne beim Komfort gravierende Nachteile zu zeigen.",
+      },
+      {
+        title: "Der Winterreifen: Continental Pure Contact",
+        text: "Eigentlich war ich lange sehr zufrieden mit dem Big Ben Plus. Gerade im Winter bietet er durch sein großes Volumen und den geringeren Luftdruck enormen Komfort und sehr hohen Pannenschutz. Trotzdem hat mich der Continental Pure Contact inzwischen fast vollständig überzeugt. Sein Pannenschutz liegt nur minimal unter dem des Big Ben Plus, dafür fährt er sich spürbar leichter und agiler. Besonders das geringere Gewicht macht sich bei jedem Antritt bemerkbar. Dazu kommt die moderne Optik mit den optionalen braunen Seitenwänden, die für viele Fahrräder einfach großartig aussieht. Leider gibt es den Reifen bisher nur in modernen Größen wie 622 oder 584 und erst ab etwa 40 mm Breite.",
+      },
+      {
+        title: "Wann ich andere Reifen fahre",
+        text: "Natürlich hängt die ideale Reifenwahl immer vom Einsatzzweck ab. Wenn ich weiß, dass ich ausschließlich auf perfekten Straßen oder hochwertigen Radwegen unterwegs bin, dürfen die Reifen noch schneller sein — dann greife ich eher zu klassischen Rennradreifen. Im Winter dagegen ändern sich die Anforderungen komplett. Kälte erhöht den Rollwiderstand vieler Reifen deutlich und schlechtes Streugut macht maximalen Pannenschutz plötzlich extrem wichtig. Genau dort spielen breite Alltagsreifen ihre Stärken aus.",
+      },
+      {
+        title: "Fazit",
+        text: "Der perfekte Fahrradreifen existiert nicht. Zu unterschiedlich sind Einsatzzwecke, Wetterbedingungen und persönliche Vorlieben. Moderne Reifen zeigen aber deutlich, wie weit sich Fahrradtechnik inzwischen entwickelt hat. Breite Reifen müssen längst nicht mehr langsam sein und guter Pannenschutz bedeutet nicht automatisch träges Fahrverhalten. Gerade Reifen wie der Continental Contact Urban oder der Pure Contact zeigen, dass Alltagstauglichkeit, Geschwindigkeit und Komfort heute erstaunlich gut zusammenpassen können.",
       },
     ],
   },
@@ -135,69 +113,66 @@ export const articles = [
     content: [
       {
         title: "Rollwiederstand",
+        picture:"proOne.jpg",
         text: "Der Rollwiederstand eines Reifen definiert, wie leicht der Reifen rollt. Je niedriger er ist, desto schneller ist man mit gleichem Kraftaufwand unterwegs. Leider geht geringerer Rollwiederstand in der Regel mit schlechterem Pannenschutz und weniger Komfort einher.",
       },
       {
+        picture:"ccu.jpg",
         title: "Pannenschutz",
         text: "Je höher der Pannenschutz, des weniger führen Glasscherben, Dornen oder ähnliches zu Durchstichen und damit Platten. Pannenschutz wirkt sich aber negatib auf Rollwiederstand, Federungskomfort und vor allem Gewicht aus.",
       },
       {
+        picture:"one.jpg",
         title: "Gewicht",
         text: "Bei voller Fahrt ist das Gewicht eher zu vernachlässigen. Allerdings spielt es beim Beschleunigen die entscheidende Rolle: Je leichter der Reifen, desto Dynamischer der Sprint. Superleichte Reifen weisen kaum Pannenschutz auf.",
       },
       {
+        picture:"BigBenPlus.jpg",
         title: "Federungskomfort",
         text: "Je weicher der Reifen aufgepumpt und je dicker der Reifen, desto mehr werde kleinere Unebenheiten herausgefedert. Ebenfalls erhöht sich damit der Pannenschutz. Leider geht es zu lasten des Rollwiederstandes.",
       },
     ],
   },
-  // Reifenbreite
-  {
-    categorie: "produkte",
-    viewStyle: "inverted",
-    picture: "fliteFull.jpg",
-    videoLink: false,
-    orientation: "right",
-    title: "über Reifenbreite",
-    text: "Wie breit sollte ein Reifen sein? Sind schmale Reifen schneller? sind dicke Reifen nur etwas für E-Bikes? und wovon hängt die passende Reifenwahl ab.",
-    content: [
-      {
-        title: "Rollwiderstand",
-        text: "Breitere Reifen rollen leichter. Ich fahre beide mir dem maximal zulässigen Luftdruck von 6 bzw. 7 bar. Dabei rollt der 42er tatsächlich etwas leichter. Im Sommer ist der Unterschied marginal, im Winter ist er spührbarer.",
-      },
-      {
-        title: "Aerodynamik",
-        text: "Logischerweise sind die dünneren Reifen Aerodynamisch vorteilhafter. In der Praxis ist das allerdings erst bei Geschwindigkeiten deutlich über 30 km/h spührbar. Weitaus wichtiger ist hier aber, dass mein 32er bei den hohen Geschwindigkeiten ruhiger läuft, derweil bei meinem 42er ab ca 35 km/h Höhenschläge spührbar werden.",
-      },
-      {
-        title: "Fazit",
-        text: "Der 42er hat noch zwei weitere Vorteile: er ruhiger beim Anfahren und Kurven und der Pannenschutz ist dank des geringfügig niedrigeren Luftdrucks besser. Damit ist er für mich der bessere Alltagsreifen. Fahre ich allerdings überland, auf Geschwindigkeit ist der 32er für mich das Maß der Dinge.",
-      },
-    ],
-  },
-  // Criticall Mass Hamburg
+  // Criticall Mass Hamburg IO
   {
     categorie: "community",
-    // normal, bigPicture, tripleComponent, textonly
     viewStyle: "normal",
     picture: "criticalMassHamburg.jpeg",
     videoLink: false,
     orientation: "top",
-    // bigPicture: top, topright, right, bottomright, bottom, bottomleft, left, topleft
-    // normal: right, left
     title: "Critical Mass Hamburg",
-    text: "Jeden letzten Freitag im Monat treffen sich hunderte, manchmal tausende Fahrradfahrer in Hamburg zum gemeinsamen Radeln. In meist sehr gemächlichem Tempo gehts dann durch Hamburg. Die Botschaft ist klar und deutlich, wir sind viele. Selbstkritsch sollte sich die Bewegung allergings langsam fragen, ob die Verhältnismäßifkeit in Hamburg noch stimmt. Immerhin baut die Stadt im großen Stil Radinfrastruktur. Aber in den Außenbezirken passiert meistens so gut wie garnix. Ich denke es wir dringend zeit, die Critical Mass in die Außenbezirke zu bringen! Kleinere Gruppen sind vo Restverkehr auch einfacher zu aktzeptieren.",
+    text: "Jeden letzten Freitag im Monat treffen sich in Hamburg hunderte, manchmal sogar tausende Fahrradfahrer zur Critical Mass. Gemeinsam fährt man dann in gemütlichem Tempo quer durch die Stadt. Die Botschaft dahinter ist simpel und bis heute wirkungsvoll: Wir sind viele — und Fahrräder gehören selbstverständlich zum Verkehr dazu.",
     content: [
       {
-        title: "",
-        text: "",
+        title: "Was die Critical Mass eigentlich ist",
+        text: "Die Critical Mass entstand ursprünglich als internationale Bewegung für bessere Sichtbarkeit des Radverkehrs. Die Idee dahinter ist bewusst einfach gehalten: Wenn genügend Radfahrer gemeinsam unterwegs sind, entsteht plötzlich ein völlig anderes Bild des Straßenverkehrs. Fahrräder wirken nicht mehr wie einzelne Verkehrsteilnehmer zwischen Autos, sondern wie ein relevanter Teil urbaner Mobilität. Genau das macht die Faszination der Critical Mass bis heute aus. Für viele Teilnehmer ist sie gleichzeitig Demonstration, Gemeinschaftserlebnis und entspannte Stadttour.",
+      },
+      {
+        title: "Ein völlig anderes Gefühl von Stadt",
+        text: "Wer einmal mit mehreren hundert oder gar tausenden Fahrrädern durch Hamburg gefahren ist, versteht schnell, warum die Veranstaltung so beliebt ist. Straßen wirken plötzlich ruhiger, Kreuzungen entspannter und die gesamte Stadt fühlt sich für einen kurzen Moment anders an. Statt Motorengeräuschen hört man Gespräche, Musik, Klingeln und manchmal einfach nur das Rollen der Reifen. Gerade Menschen, die sonst eher defensiv oder unsicher in Hamburg unterwegs sind, erleben die Stadt während der Critical Mass oft zum ersten Mal als wirklich fahrradfreundlich.",
+      },
+      {
+        title: "Hamburg hat sich verändert",
+        text: "Gleichzeitig stellt sich inzwischen aber auch eine berechtigte Frage: Passt die ursprüngliche Form der Critical Mass in Hamburg noch vollständig zur heutigen Situation? Denn die Stadt investiert mittlerweile massiv in neue Radinfrastruktur. Viele Hauptachsen wurden ausgebaut, Protected Bike Lanes entstehen und das Fahrrad spielt in der Verkehrsplanung eine deutlich größere Rolle als noch vor zehn oder fünfzehn Jahren. Natürlich läuft längst nicht alles perfekt — aber Hamburg ist beim Thema Radverkehr heute eine andere Stadt als früher.",
+      },
+      {
+        title: "Die eigentlichen Probleme liegen oft außerhalb der Innenstadt",
+        text: "Gerade deshalb wirkt die heutige Streckenführung der Critical Mass manchmal etwas widersprüchlich. Denn während in der Innenstadt vergleichsweise viel passiert, bleiben viele Außenbezirke beim Thema Fahrradinfrastruktur weiterhin deutlich zurück. Dort fehlen oft sichere Radwege, vernünftige Verbindungen oder überhaupt ernsthafte Investitionen. Ausgerechnet dort, wo viele Menschen täglich pendeln, dominiert häufig noch immer das Auto nahezu vollständig.",
+      },
+      {
+        title: "Die Frage der Verhältnismäßigkeit",
+        text: "Hinzu kommt ein weiterer Punkt: Bei mehreren tausend Teilnehmern an einem Freitagabend wird die Veranstaltung aus Sicht anderer Verkehrsteilnehmer zunehmend schwerer nachvollziehbar. Gerade spätere Berufspendler, Busverkehr oder Menschen auf dem Heimweg stehen teilweise sehr lange an Kreuzungen oder kommen kaum noch durch die Stadt. Natürlich lebt die Critical Mass genau von dieser Sichtbarkeit und davon, kurzfristig den Straßenraum anders zu nutzen. Trotzdem sollte sich die Bewegung vielleicht langsam die Frage stellen, wie verhältnismäßig die aktuellen Dimensionen noch sind — zumindest in einer Stadt, die inzwischen vielerorts aktiv Radverkehr fördert.",
+      },
+      {
+        title: "Warum die Zukunft vielleicht in den Außenbezirken liegt",
+        text: "Gerade deshalb fände ich es spannend, die Critical Mass stärker in die Außenbezirke zu bringen. Dort wäre die politische Aussage heute vermutlich deutlich stärker als auf den inzwischen gut ausgebauten Innenstadtachsen. Gleichzeitig wären kleinere Gruppen außerhalb des Zentrums für den Restverkehr oft leichter akzeptabel. Vielleicht liegt genau darin die nächste Entwicklung der Bewegung: weniger reine Machtdemonstration im Zentrum — und mehr sichtbare Präsenz dort, wo sichere Fahrradinfrastruktur noch wirklich fehlt.",
       },
     ],
   },
   // Geschwindigkeit auf dem Liegerad OK
   {
     categorie: "produkte",
-    viewStyle: "normal",
+    viewStyle: "inverted",
     picture: "fliteFull.jpg",
     videoLink: false,
     orientation: "right",
@@ -299,7 +274,7 @@ export const articles = [
   // toxy Flite OK
   {
     categorie: "testberichte",
-    viewStyle: "normal",
+    viewStyle: "inverted",
     picture: "fliteFull.jpg",
     videoLink: "https://www.youtube.com/embed/leDp6Kw-HDs",
     orientation: "bottom",
@@ -481,3 +456,10 @@ export const articles = [
     text: "Willkommen auf unserer Website www.realcyclists.de. Wir freuen uns über Deinen Besuch und hoffen Dich gut zu unterhalten.",
   },
 ];
+
+
+// Cube Hyde Race uns seine Nachteile, Cube Editor, Riese Müller Load, S-Pedelec, Cube Nuroad race FE/ C:62 Pro
+// RadReise Hamburg-Amsterdam, Utrecht-Paris-Genf
+// Radschnellweg-Nord
+// unsere Erste Radreise - aus finanzieller Not zur großen Freiheit
+// Apell an Radfahrer
