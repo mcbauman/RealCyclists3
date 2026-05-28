@@ -9,7 +9,7 @@ function addPicture(pitureName){
 
 <template>
   <img class="modelPicture" :src="addPicture(content.picture)" alt="" />
-  <section :class="content.orientation + ' ' + content.colorSchema">
+  <section :class="content.orientation">
     <h3>{{ content.title }}</h3>
     <p>
       {{ content.text }}
@@ -29,7 +29,9 @@ section {
   background:var(--bgText);
   text-shadow: 0 0 3px var(--textInverted);
   color: var(--text);
-  padding:10px
+  padding:10px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .modelPicture {

@@ -101,7 +101,7 @@ p{
     padding: 0;
     /* box-shadow: 0 0 3px var(--white07); */
     border-radius: 10px;
-    background-color: var(--white15);
+    background-color: var(--bgText);
 }
 
 .articleModalHeader {
@@ -131,7 +131,7 @@ p{
 }
 
 .moreContent{
-  background-color: var(--white);
+  background-color: var(--bgText);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(246, 240, 239, 0.4);
   margin: 30px 20px;
@@ -156,6 +156,15 @@ p{
   border-radius: 10px 0 0 10px;
 }
 
+button{
+  background-color: var(--bgText) ;
+  color: var(--text);
+}
+
+button:hover{
+  background-color: var(--text) ;
+  color: var(--bgText);
+}
 
 @media only screen and (max-width: 900px) {
   article {

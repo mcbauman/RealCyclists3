@@ -9,7 +9,7 @@ function addPicture(pitureName){
 
 <template>
   <img class="modelPicture" :src="addPicture(content.picture)" alt="" />
-  <section :class="content.orientation + ' ' + content.colorSchema">
+  <section :class="content.orientation">
     <h3>{{ content.title }}</h3>
     <p>
       {{ content.text }}
@@ -38,7 +38,10 @@ section {
   box-shadow: 0 4px 30px var(--shadow);
 }
 
-@media only screen and(min-width:700px) {
+@media only screen and (min-width:700px) {
+  section{
+        border-radius: 10px 10px 0 0;
+  }
   .top {
     top: 0;
     /* max-width: 100%; */
